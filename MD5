@@ -1,0 +1,16 @@
+e546e848f0d03448efdd0740b7821cd8 *DESCRIPTION
+bb84805b26c57d1d5cea3e7395b78fe3 *NAMESPACE
+f527d825ab4ecb667a294f4f26ac3903 *R/FourHbootstrap.R
+8709631102586247a4fa765597193ec9 *R/FourHcentroid.R
+3f0dc61a4b08b5c59b74cb34c9d516b5 *R/FourHcompare.R
+0ba1d822f90d9d426954af68d04e7f0f *R/FourHnullplane.R
+77f0394590cc0af4008d008c73619f42 *R/FourHnullplaneD.R
+b3ded8c7e6667d792f0f645227bff307 *R/FourHquaternary.R
+7226daf0c3f4a2eca8bfb08378988988 *R/FourHquaternaryC.R
+ae0b0443f39ed91bed76d0c315150deb *man/FourHbootstrap.Rd
+7515683b254c3ad077da24a2af36c927 *man/FourHcentroid.Rd
+225b6bca858047faccd5bc69be14ea0c *man/FourHcompare.Rd
+460a41770072a9be79bd727d8d2989f8 *man/FourHnullplane.Rd
+400355a1d4411ea7da2c14fa0923f125 *man/FourHnullplaneD.Rd
+f24d6d8f5fbf208b1a3aa8808827ba30 *man/FourHquaternary.Rd
+a909327a22711ab2df070ccce77e6f72 *man/FourHquaternaryC.Rd

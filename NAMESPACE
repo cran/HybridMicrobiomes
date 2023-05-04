@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+import(rgl)
+import(compositions)
+import(phyloseq)
+import(rlang)
+import(PERMANOVA)
+importFrom("graphics","hist")
+importFrom("stats","sd")
