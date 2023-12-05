@@ -17,7 +17,7 @@ FourHcompare(boots_sets, boots_types, method='ilr', permutations = 1000)
 (Required) A vector specifying which hybrid system each bootstrap sample belongs to. The order of this vector must be the same as the order of the bootstrapped samples in the matrix of bootstrapped 4H indices.
 }
 \item{method}{
-The method used to transform the compositional 4H-index in the 4-part Aitchison Simplex to a 3-dimensional euclidean vector. Statistical tests are performed on the 3-dimensional euclidean vectors. Currently, options for transformation are 'ilr' for an isometric log-ratio transformation and 'clr' for a centered log-ratio transformation. The default is to use an isometric log-ratio transformation.
+The method used to transform the compositional 4H-index in the 4-part Aitchison Simplex to a 3-dimensional euclidean vector. Statistical tests are performed on the 3-dimensional euclidean vectors. Currently, options for transformation are 'ilr' for an isometric log-ratio transformation, 'clr' for a centered log-ratio transformation, 'alr' for an additive log-ratio transformation and 'none' for non-transformed data. The default is to use an isometric log-ratio transformation.
 }
 \item{permutations}{
 The desired number of permutations to use for the PERMANOVA. The default is 1000.

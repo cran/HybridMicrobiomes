@@ -11,6 +11,13 @@ FourHcompare <- function(boots_sets, boots_types, method='ilr', permutations=100
   else if (method == 'clr'){
     input_points<-compositions::clr(boots_sets[,1:4])
   }
+  else if (method == 'alr'){
+    input_points<-compositions::alr(boots_sets[,1:4])
+  }
+  else if (method == 'none'){
+    input_points<-boots_sets[,1:4]
+    print('Using non-transformed data is not recommended')
+  }
   else{
     message('unrecognized transformation method')
   }

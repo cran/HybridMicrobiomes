@@ -1,7 +1,7 @@
 Package: HybridMicrobiomes
 Type: Package
 Title: Analysis of Host-Associated Microbiomes from Hybrid Organisms
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
   c(person(given = "Benjamin",
            family = "Camper",
@@ -24,12 +24,16 @@ Authors@R:
            role="fnd"),
            person(given="Clemson University Support for Early Exploration and Development (CU SEED) Grant",
            role="fnd"))
-Description: Provides tools to analyze and visualize the relationships between host-associated microbiomes of hybrid organisms and those of their progenitor species.  
+Description: A set of tools to analyze and visualize the relationships between host-associated microbiomes of hybrid organisms and those of their progenitor species. Though not necessary, installing the microViz package is recommended as a check for phyloseq objects. To install microViz from R Universe use the following command: install.packages("microViz", repos = c(davidbarnett = "https://david-barnett.r-universe.dev", getOption("repos"))). To install microViz from GitHub use the following commands: install.packages("devtools") followed by devtools::install_github("david-barnett/microViz").
 License: GPL-2
 Encoding: UTF-8
-Imports: rgl, compositions,phyloseq, rlang, PERMANOVA, graphics, stats
+biocViews: Software, phyloseq
+Imports: rgl, compositions, rlang, PERMANOVA, graphics, stats,vegan,
+        ks, ape, geometry,StereoMorph, phyloseq
+Suggests: microViz
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-05-02 19:33:07 UTC; sbewick
+Packaged: 2023-12-05 00:33:49 UTC; sbewick
 Author: Benjamin Camper [aut],
   Zachary Lauglin [ctb],
   Daniel Malagon [ctb],
@@ -41,4 +45,4 @@ Author: Benjamin Camper [aut],
     SEED) Grant [fnd]
 Maintainer: Sharon Bewick <sbewick@clemson.edu>
 Repository: CRAN
-Date/Publication: 2023-05-04 08:10:05 UTC
+Date/Publication: 2023-12-05 23:20:10 UTC
